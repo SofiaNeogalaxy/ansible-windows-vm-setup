@@ -8,13 +8,13 @@ Before using this repository, you need to have the following:
  - Terraform CLI
  - Ansible CLI
  - Azure CLI
- - 
+ 
 ### Setup
 To setup the environment, follow these steps:
 
 Clone the repository and navigate to the repository directory
 Initialize the Terraform environment using the following command:
-```csharp
+```csharp```
 
 terraform init
 ```
