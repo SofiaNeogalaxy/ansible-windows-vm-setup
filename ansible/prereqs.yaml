@@ -1,0 +1,26 @@
+---
+- name: Install git
+  win_chocolatey:
+    name: git
+    # update_cache: yes
+    state: present
+
+- name: install TeamCity
+  win_chocolatey:
+    name: teamcity
+    state: latest
+
+- name: Install hugo
+  win_chocolatey:
+    name: hugo
+    state: latest
+
+- name: install terraform
+  win_chocolatey:
+    name: terraform
+    state: present
+
+- name: Install google-chrome 
+  win_chocolatey:
+    name: googlechrome
+    state: present

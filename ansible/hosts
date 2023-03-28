@@ -1,1 +1,11 @@
+[win:vars]
+ansible_user ='adminuser'
+ansible_password = "P@$$w0rd1234!"
+ansible_connection= "winrm"
+ansible_winrm_server_cert_validation ="ignore"
+ansible_port = '5985'
+ansible_winrm_transport = "ntlm"
+
+[win]
+20.166.8.239
 

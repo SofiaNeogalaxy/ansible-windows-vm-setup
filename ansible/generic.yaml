@@ -1,0 +1,9 @@
+---
+- hosts: win
+  become: yes
+  become_method: runas
+  become_user: System
+
+  tasks:
+    - import_tasks: azure-cli.yaml
+    - import_tasks: prereqs.yaml

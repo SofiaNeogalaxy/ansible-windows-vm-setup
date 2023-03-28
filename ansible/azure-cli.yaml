@@ -1,0 +1,4 @@
+- name: Install Azure CLI
+  win_chocolatey:
+    name: azure-cli
+    state: present

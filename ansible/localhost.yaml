@@ -1,0 +1,8 @@
+---
+- name: generic localhost playbook
+  hosts: localhost
+  connection: local
+  gather_facts: true
+  tasks:
+    - import_tasks: azure-cli.yaml
+    - import_tasks: prereqs.yaml
