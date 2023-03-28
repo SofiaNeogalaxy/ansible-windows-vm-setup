@@ -13,17 +13,17 @@ Before using this repository, you need to have the following:
 To setup the environment, follow these steps:
 
 Clone the repository and navigate to the repository directory
-Initialize the Terraform environment using the following command:
-```csharp```
+Initialize the Terraform environment:
+```csharp
 
 terraform init
 ```
 Modify the variables.tf file according to your needs, for example, by specifying the desired region or VM size.
-Deploy the infrastructure using the following command:
+Deploy the infrastructure:
 ```
 terraform apply
 ```
-Once the infrastructure is deployed, navigate to the ansible directory and run the playbook using the following command:
+Once the infrastructure is deployed, navigate to the ansible directory and run the playbook:
 ```
 ansible-playbook azure-cli.yaml generic.yaml prereqs.yaml localhost.yaml
 ```
